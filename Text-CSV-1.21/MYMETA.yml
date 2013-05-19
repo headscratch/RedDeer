@@ -1,0 +1,26 @@
+---
+abstract: 'comma-separated values manipulator (using XS or PurePerl)'
+author:
+  - 'Makamaka Hannyaharamitu, E<lt>makamaka[at]cpan.orgE<gt>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.56, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Text-CSV
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  IO::Handle: 0
+  Test::Harness: 0
+  Test::More: 0
+resources:
+  repository: http://github.com/makamaka/Text-CSV
+version: 1.21
